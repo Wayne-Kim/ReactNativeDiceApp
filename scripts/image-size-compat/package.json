@@ -1,0 +1,7 @@
+{
+  "name": "@wayne-kim/image-size-compat",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": { "image-size-modern": "npm:image-size@^2.0.3" }
+}

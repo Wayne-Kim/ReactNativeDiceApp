@@ -25,3 +25,7 @@ The Dice App is designed to provide users with an immersive and visually appeali
 ## Ruby tooling
 
 Use Ruby 3.2 or newer and Bundler 4 for `bundle install`. The CocoaPods toolchain uses patched ActiveSupport 7.2, Addressable, concurrent-ruby and REXML versions from `Gemfile.lock`. System Ruby 2.6 is no longer supported.
+
+## JavaScript security compatibility
+
+Use Node.js 22 or newer. `yarn` resolves the legacy `ip` dependency to the maintained `@webpod/ip` fork. Metro's callable `image-size` API is preserved by `scripts/image-size-compat`, which delegates parsing to patched image-size 2.x. Run `node --test scripts/tests/security-compat.cjs` to check malformed ICNS input, IP classification, and the image/Sharp APIs.
