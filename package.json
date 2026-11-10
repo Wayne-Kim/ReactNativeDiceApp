@@ -72,7 +72,8 @@
     "@babel/runtime": "^7.26.10",
     "sharp": "^0.35.5",
     "ip": "npm:@webpod/ip@^0.6.1",
-    "image-size": "file:./scripts/image-size-compat"
+    "image-size": "file:./scripts/image-size-compat",
+    "deepmerge": "file:./scripts/deepmerge-safe"
   },
   "engines": {
     "node": ">=22.0.0"
