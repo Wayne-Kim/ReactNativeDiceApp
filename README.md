@@ -24,7 +24,7 @@ The Dice App is designed to provide users with an immersive and visually appeali
 
 ## Ruby tooling
 
-Use Ruby 3.2 or newer and Bundler 4 for `bundle install`. The CocoaPods toolchain uses patched ActiveSupport 7.2, Addressable, concurrent-ruby and REXML versions from `Gemfile.lock`. System Ruby 2.6 is no longer supported.
+Use Ruby 3.2 or newer and Bundler 4 for `bundle install`. The CocoaPods toolchain uses patched ActiveSupport 8.0, Addressable, concurrent-ruby and REXML versions from `Gemfile.lock`. System Ruby 2.6 is no longer supported.
 
 ## JavaScript security compatibility
 
